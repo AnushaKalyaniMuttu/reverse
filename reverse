@@ -1,0 +1,4 @@
+Intstream.iterate(num,n-> n /10)
+.boxed()
+.map(n-> n%10)
+.reduce(0,(n1,n2)->n1*10+n2);
